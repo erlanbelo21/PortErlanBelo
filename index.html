@@ -349,7 +349,7 @@
 
 		<div class="row no-gutters block-9">
 			<div class="col-md-6 order-md-last d-flex">
-			  <form action="processar_formulario.php" method="POST" class="bg-light p-4 p-md-5 contact-form">
+			  <form action="https://formsubmit.co/erlanbelo@hotmail.com" method="POST" class="bg-light p-4 p-md-5 contact-form">
 				<div class="form-group">
 				  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
 				</div>
@@ -362,6 +362,8 @@
 				<div class="form-group">
 				  <textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Message" required></textarea>
 				</div>
+				<input type="hidden" name="_captcha" value="false">
+				<input type="hidden" name="_next" value="http://127.0.0.1:5500/Obrigado.html">
 				<div class="form-group">
 				  <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
 				</div>
